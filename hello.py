@@ -1,6 +1,6 @@
 def application(environ, start_response):
 	status = '200 OK'
-	output = b'Hello World! python based CI/CD PIPELINE udpate'
+	output = b'Hello World! python based CI/CD PIPELINE udpate v2'
 	response_headers = [('Content-type','text/plain'),
 			    ('Content-Length', str(len(output)))]
 	start_response(status, response_headers)
